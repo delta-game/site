@@ -1,0 +1,6 @@
+Unless explicitly stated otherwise: 
+All code / related documentation is under the MIT License & 
+All media, assets, blog posts, etc is under the CC-BY 4.X License.
+
+The theme this site uses is called 'Terminal' and is also MIT licensed;
+You can find it here  -- https://github.com/panr/hugo-theme-terminal.

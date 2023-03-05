@@ -1,0 +1,56 @@
+baseurl = "https://delta-game.github.io"
+languageCode = "en-us"
+theme = "hugo-theme-terminal"
+paginate = 5
+publishDir = "../delta-game.github.io"
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "red"
+  showMenuItems = 7
+  fullWidthTheme = true
+  centerTheme = true
+  autoCover = true
+  favicon = "favicon.ico"
+
+[languages]
+  [languages.en]
+    title = "DELTΔ"
+    subtitle = " The Perpetual Free-Time Killing Machine; A Voxel Survival-Sandbox Game Around Automation."
+    keywords = ""
+    copyright = "(C) 2023, <a href='https://github.com/jostgrant'>@JostGrant</a>"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "More Posts"
+
+    [languages.en.params.logo]
+      logoText = "DELTΔ"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "bout"
+        name = "Bout"
+        url = "/bout"
+      [[languages.en.menu.main]]
+        identifier = "meta"
+        name = "Meta"
+        url = "/meta"
+      [[languages.en.menu.main]]
+        identifier = "play"
+        name = "Play"
+        url = "/play"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "socials"
+        name = "Socials"
+        url = "/socials"
+      [[languages.en.menu.main]]
+        identifier = "support"
+        name = "Support"
+        url = "/support"
+        
+
