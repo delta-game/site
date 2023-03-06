@@ -12,6 +12,7 @@ publishDir = "../delta-game.github.io"
   centerTheme = true
   autoCover = true
   favicon = "favicon.ico"
+  enableSass = true
 
 [languages]
   [languages.en]
@@ -53,4 +54,3 @@ publishDir = "../delta-game.github.io"
         name = "Support"
         url = "/support"
         
-

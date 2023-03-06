@@ -25,7 +25,12 @@ body {
   -webkit-text-size-adjust: 100%;
 
   @media ($phone) {
+    max-width: 100%;
     font-size: 1rem;
+  }
+
+  @media not ($phone) {
+    max-width: 64%;
   }
 }
 
@@ -313,7 +318,7 @@ mark {
   }
 
   @media ($phone) {
-    padding: 20px;
+    max-width: 100%;
   }
 
   @media print {
