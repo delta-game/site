@@ -1,0 +1,17 @@
+{{ if .IsHome }}
+  <div class="post-list"> 
+    <h3 class="recent-posts">Recent Posts</h3> <!-- Should Match Theme's Red By Default-->
+    <ul>
+      {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+        <li>
+          <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+          {{ if .Params.subtitle }}
+            <h5>{{ .Params.subtitle }}</h5>
+          {{ end }}
+          <p>{{ .Description }}</p>
+        </li>
+      {{ end }}
+    </ul>
+    <p><a href="/posts">See All</a></p>
+  </div>
+{{ end }}
