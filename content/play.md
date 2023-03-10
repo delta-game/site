@@ -25,7 +25,7 @@ First, we need to download the latest commit of DELTΔ from our GitHub repositor
 
 3. Extract the downloaded ZIP file to a directory on your computer.
 
-4. Open your system's terminal application and navigate to the directory where you extracted the DELTΔ files using the `cd` command. For example, if you extracted the files to `/home/<username>/Downloads/delta`, you would run the following cmd:
+4. Open your system's terminal application and navigate to the directory where you extracted the DELTΔ files using the `cd` command. For example, if you extracted the files to `/home/<username>/Downloads/delta-main`, you would run the following cmd:
 
     ```bash
     # Replace the <username> w/ ... well ya know.
