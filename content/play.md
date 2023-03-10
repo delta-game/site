@@ -6,12 +6,14 @@ DELTΔ is in the perpetual prototype stage. Changes are sporadic, often dramatic
 
 Before you start, you need to make sure that you have the following prerequisites installed:
 
-- GoLang 1.19 or later (you can download it from [here](https://golang.org/dl/))
+- GoLang 1.19 or later (you can download it [here](https://golang.org/dl/)). For Linux **[1]** 
 - The defacto package-manager for your Operating-System.
 
 On Windows, Chocolatey is required to use the `depends` command. You can download it from [here](https://chocolatey.org/install). On MacOSX, Homebrew is required for the same reason. You can download it [here](https://brew.sh/). On Linux, your distribution's package manager is required to install the necessary packages. Right now, we officially support Apt via Debian and Ubuntu, Pacman via Arch, and Dnf via Fedora.
 
 Linux is the sole development platform that I use and while MacOSX is Unix-like enough where things should probably 'just work' and has been confirmed early versions currently do -- I have no idea about Windows. So if this guide doesn't work, it's probably worth setting up WSL2 (Windows Subsystem for Linux 2) using the Debian image, which can be downloaded from the Microsoft Store, and trying that. You can learn more about setting up WSL2: [here](https://learn.microsoft.com/en-us/windows/wsl/install), and download the Debian image: [here](https://www.microsoft.com/store/apps/9MSVKQC78PK6).
+
+**[1]** On Linux, check your package-manager for a "go" or "golang" package. It should be availble on all supported distros.
 
 ## Step 1: Download The Latest Commit
 
