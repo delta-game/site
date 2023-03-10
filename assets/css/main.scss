@@ -319,3 +319,27 @@ mark {
     display: initial;
   }
 }
+.content {
+  display: flex;
+  flex-direction: column;
+
+  @media print {
+    display: initial;
+  }
+}
+
+hr {
+  width: 100%;
+  border: none;
+  background: $border-color;
+  height: 1px;
+}
+
+.hidden {
+  display: none;
+}
+
+sup {
+ line-height: 0;
+}
+
