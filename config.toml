@@ -6,7 +6,7 @@ publishDir = "../delta-game.github.io"
 
 [params]
   contentTypeName = "posts"
-  themeColor = "red"
+  themeColor = "dredd"
   showMenuItems = 7
   fullWidthTheme = true
   centerTheme = true
