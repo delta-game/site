@@ -23,15 +23,6 @@ body {
   font-variant-ligatures: contextual;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-
-  @media ($phone) {
-    max-width: 100%;
-    font-size: 1rem;
-  }
-
-  @media not ($phone) {
-    max-width: 64%;
-  }
 }
 
 .headings--one-size {
@@ -303,7 +294,6 @@ mark {
   display: flex;
   flex-direction: column;
   padding: 40px;
-  max-width: 864px;
   min-height: 100vh;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -317,35 +307,15 @@ mark {
     max-width: 64%;
   }
 
-  @media ($phone) {
+  @media only screen and (max-width: 767px), only screen and (max-width: 1023px) {
     max-width: 100%;
   }
 
-  @media print {
-    display: initial;
+  @media only screen and (min-width: 1024px) {
+    max-width: 64%;
   }
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
 
   @media print {
     display: initial;
   }
-}
-
-hr {
-  width: 100%;
-  border: none;
-  background: $border-color;
-  height: 1px;
-}
-
-.hidden {
-  display: none;
-}
-
-sup {
- line-height: 0;
 }
