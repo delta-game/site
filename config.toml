@@ -38,13 +38,21 @@ publishDir = "../delta-game.github.io"
         name = "Meta"
         url = "/meta"
       [[languages.en.menu.main]]
-        identifier = "play"
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
+      [[languages.en.menu.main]]
+	identifier = "play"
         name = "Play"
         url = "/play"
       [[languages.en.menu.main]]
         identifier = "posts"
         name = "Posts"
         url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "reference"
+        name = "Reference"
+        url = "/reference"
       [[languages.en.menu.main]]
         identifier = "showcase"
         name = "Showcase"
