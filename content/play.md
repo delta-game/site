@@ -6,10 +6,10 @@ DELTΔ is in the perpetual prototype stage. Changes are sporadic, often dramatic
 
 Before you start, you need to make sure that you have the following prerequisites installed:
 
-- GoLang 1.19 or later (you can download it [here](https://golang.org/dl/)). For Linux **[1]** 
-- The defacto package-manager for your Operating-System.
+- GoLang 1.19 or later (you can download it [here](https://golang.org/dl/)). And for Linux **[1]** 
+- The defacto package-manager (x repos) for your Operating-System.
 
-On Windows, Chocolatey is required to use the `depends` command. You can download it from [here](https://chocolatey.org/install). On MacOSX, Homebrew is required for the same reason. You can download it [here](https://brew.sh/). On Linux, your distribution's package manager is required to install the necessary packages. Right now, we officially support Apt via Debian and Ubuntu, Pacman via Arch, and Dnf via Fedora.
+On Windows, Chocolatey is required to use the `depends` command. You can download it from [here](https://chocolatey.org/install). On MacOSX, Homebrew is required for the same reason. You can download it [here](https://brew.sh/). On Linux, your distribution's package manager is required to install the necessary packages. Right now, we officially support Apt via Debian and Ubuntu, Pacman via Arch, and Dnf via Fedora. If your Distro is not listed -- don't fear, Distrobox is [here](https://github.com/89luca89/distrobox)! It's pretty likely a package is already in your distro's repos or one-degree from them. And at worst, it's a curl pipe'd script and a path export or-two away. 
 
 Linux is the sole development platform that I use and while MacOSX is Unix-like enough where things should probably 'just work' and has been confirmed early versions currently do -- I have no idea about Windows. So if this guide doesn't work, it's probably worth setting up WSL2 (Windows Subsystem for Linux 2) using the Debian image, which can be downloaded from the Microsoft Store, and trying that. You can learn more about setting up WSL2: [here](https://learn.microsoft.com/en-us/windows/wsl/install), and download the Debian image: [here](https://www.microsoft.com/store/apps/9MSVKQC78PK6).
 
@@ -39,14 +39,14 @@ First, we need to download the latest commit of DELTΔ from our GitHub repositor
 
 ## Step 2: Setting Up Magefiles
 
-To build DELTΔ, we first need to set up Magefiles.
+To build DELTΔ, we first need to set up the Magefile build-tool.
 
 1. We should already have GoLang installed and our terminal app opened. Now we need to run the following command, which will download and install the `magefile` executable to our `$GOPATH`:
 
     ```bash 
     go install github.com/magefile/mage@latest
     ```
-2. To view all user facing targets, run the following command:
+2. To view all user facing targets, run the following command in our terminal:
 
     ```bash
     mage help
