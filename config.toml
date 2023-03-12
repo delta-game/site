@@ -50,9 +50,9 @@ publishDir = "../delta-game.github.io"
         name = "Posts"
         url = "/posts"
       [[languages.en.menu.main]]
-        identifier = "reference"
+        identifier = "refs"
         name = "Reference"
-        url = "/reference"
+        url = "/refs"
       [[languages.en.menu.main]]
         identifier = "showcase"
         name = "Showcase"
