@@ -1,7 +1,7 @@
 # METΔ
 ### Internal / Self-Referential Documentation For DELTΔ
 All sourced from https://github.com/delta-game/meta; 
-> WARNING: If you don't have dark-mode on -- be aware, you fill be flash-banged clicking these links!
+> WARNING: If you don't have dark-mode on -- be aware, you **will** be flash-banged clicking these links!
 
 | Type                                                                           | Desc                                                        |
 |--------------------------------------------------------------------------------|-------------------------------------------------------------|
